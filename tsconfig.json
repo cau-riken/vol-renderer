@@ -1,0 +1,31 @@
+{ 
+    "compilerOptions": { 
+      "target": "es2020", 
+      "lib": ["es6", "dom"],
+      "sourceMap": true, 
+      "strict": true, 
+      "noImplicitReturns": true,
+      "rootDir": "src",
+      "outDir": "dist",
+
+
+      // Default
+      "esModuleInterop": true, 
+      "forceConsistentCasingInFileNames": true,
+      "skipLibCheck": true,
+
+      //
+      "jsx": "react", 
+      "module": "ESNext",  
+      "moduleResolution": "node",
+
+      "declaration": true,
+      "declarationDir": "types",
+
+      "allowSyntheticDefaultImports": true,
+      "emitDeclarationOnly": true,
+
+    },
+    "include": ["**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules"]
+  }

@@ -1,0 +1,6 @@
+dist/cjs/
+dist/esm/
+dist/index.d.ts*
+dist/main.*
+node_modules/
+cau-riken-vol-renderer-*.tgz
