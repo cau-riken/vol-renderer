@@ -7,6 +7,13 @@ A npm package to display NIfTI volume (based on ThreeJs)
   <img src="docs/vol-renderer_preview.png">
 </div>
 
+
+<br/><br/>
+
+## Try the online [demo](https://cau-riken.github.io/vol-renderer/demo/index.html).
+
+<br/><br/>
+
 ## Usage
 
 In the consuming project, add a line to your `.npmrc` file so this package can be retrieve from github package repository :
@@ -42,3 +49,5 @@ import "@cau-riken/vol-renderer/dist/main.css";
 
 
 ```
+
+
