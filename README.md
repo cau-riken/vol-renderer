@@ -1,8 +1,11 @@
 # vol-renderer
 
-## build (locally)
 
+A npm package to display NIfTI volume (based on ThreeJs)
 
+<div align="center">
+  <img src="docs/vol-renderer_preview.png">
+</div>
 
 ## Usage
 
