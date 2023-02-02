@@ -16,11 +16,18 @@ A npm package to display NIfTI volume (based on ThreeJs)
 
 ## Usage
 
-In the consuming project, add a line to your `.npmrc` file so this package can be retrieve from github package repository :
+In the consuming project, add a line to your `.npmrc` file so this package can be retrieved from github package registry :
 
 ```.rc
 @cau-riken:registry=https://npm.pkg.github.com
 ```
+
+And if not already done, you'll also need to include a personal token with `read:packages` scope to be able to install packages from github registry:
+```.rc
+//npm.pkg.github.com/:_authToken=<REPLACE_BY_YOUR_TOKEN>'
+```
+
+(References: [authenticating to github packages](https://docs.github.com/en/packages/learn-github-packages/introduction-to-github-packages#authenticating-to-github-packages) and [create a personal (classic) token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-personal-access-token-classic))
 
 ### Install package
 
